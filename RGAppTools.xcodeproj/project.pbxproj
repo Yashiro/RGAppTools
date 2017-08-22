@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B73D43201F43CCD50048A97D /* UINavigationBar+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D431F1F43CCD50048A97D /* UINavigationBar+RGAppTools.swift */; };
+		B73D43221F43CCF60048A97D /* UITabBar+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D43211F43CCF60048A97D /* UITabBar+RGAppTools.swift */; };
+		B73D43241F43CD150048A97D /* UIView+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D43231F43CD150048A97D /* UIView+RGAppTools.swift */; };
+		B73D43261F43CD350048A97D /* UIViewController+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D43251F43CD350048A97D /* UIViewController+RGAppTools.swift */; };
+		B753AD6E1F4BFB9D00978DD8 /* RGToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B753AD6D1F4BFB9D00978DD8 /* RGToast.swift */; };
+		B784E6731F46DB6700D702AF /* CLLocation+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B784E6721F46DB6700D702AF /* CLLocation+RGAppTools.swift */; };
+		B784E6751F46E4D600D702AF /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B784E6741F46E4D600D702AF /* UIConstant.swift */; };
+		B784E6771F46E4E900D702AF /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B784E6761F46E4E900D702AF /* MainScreen.swift */; };
+		B79DA2D21C603837002FB62E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79DA2D11C603837002FB62E /* AppDelegate.swift */; };
+		B79DA2D41C603837002FB62E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79DA2D31C603837002FB62E /* ViewController.swift */; };
+		B79DA2D71C603837002FB62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79DA2D51C603837002FB62E /* Main.storyboard */; };
+		B79DA2D91C603837002FB62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79DA2D81C603837002FB62E /* Assets.xcassets */; };
+		B79DA2DC1C603837002FB62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79DA2DA1C603837002FB62E /* LaunchScreen.storyboard */; };
+		B7BDB5EE1F3949A0003C3F60 /* AppSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5D41F39499F003C3F60 /* AppSingleton.swift */; };
+		B7BDB5EF1F3949A0003C3F60 /* MethodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5D51F39499F003C3F60 /* MethodInfo.swift */; };
+		B7BDB5F01F3949A0003C3F60 /* Double+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5D81F39499F003C3F60 /* Double+RGAppTools.swift */; };
+		B7BDB5F11F3949A0003C3F60 /* Int+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5D91F39499F003C3F60 /* Int+RGAppTools.swift */; };
+		B7BDB5F21F3949A0003C3F60 /* String+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5DA1F3949A0003C3F60 /* String+RGAppTools.swift */; };
+		B7BDB5F31F3949A0003C3F60 /* Bundle+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5DC1F3949A0003C3F60 /* Bundle+RGAppTools.swift */; };
+		B7BDB5F41F3949A0003C3F60 /* Date+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5DD1F3949A0003C3F60 /* Date+RGAppTools.swift */; };
+		B7BDB5F51F3949A0003C3F60 /* DispatchQueue+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5DE1F3949A0003C3F60 /* DispatchQueue+RGAppTools.swift */; };
+		B7BDB5F61F3949A0003C3F60 /* FileManager+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5DF1F3949A0003C3F60 /* FileManager+RGAppTools.swift */; };
+		B7BDB5F71F3949A0003C3F60 /* NSDictionary+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E01F3949A0003C3F60 /* NSDictionary+RGAppTools.swift */; };
+		B7BDB5F81F3949A0003C3F60 /* NSObject+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E11F3949A0003C3F60 /* NSObject+RGAppTools.swift */; };
+		B7BDB5F91F3949A0003C3F60 /* UserDefaults+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E21F3949A0003C3F60 /* UserDefaults+RGAppTools.swift */; };
+		B7BDB5FB1F3949A0003C3F60 /* UIAlertController+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E51F3949A0003C3F60 /* UIAlertController+RGAppTools.swift */; };
+		B7BDB5FC1F3949A0003C3F60 /* UIColor+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E61F3949A0003C3F60 /* UIColor+RGAppTools.swift */; };
+		B7BDB5FD1F3949A0003C3F60 /* UIDevice+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E71F3949A0003C3F60 /* UIDevice+RGAppTools.swift */; };
+		B7BDB5FE1F3949A0003C3F60 /* UIImage+RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5E81F3949A0003C3F60 /* UIImage+RGAppTools.swift */; };
+		B7BDB5FF1F3949A0003C3F60 /* TopLayoutProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5EB1F3949A0003C3F60 /* TopLayoutProtocols.swift */; };
+		B7BDB6001F3949A0003C3F60 /* RGAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BDB5EC1F3949A0003C3F60 /* RGAppTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B73D431F1F43CCD50048A97D /* UINavigationBar+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+RGAppTools.swift"; sourceTree = "<group>"; };
+		B73D43211F43CCF60048A97D /* UITabBar+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+RGAppTools.swift"; sourceTree = "<group>"; };
+		B73D43231F43CD150048A97D /* UIView+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RGAppTools.swift"; sourceTree = "<group>"; };
+		B73D43251F43CD350048A97D /* UIViewController+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+RGAppTools.swift"; sourceTree = "<group>"; };
+		B753AD6D1F4BFB9D00978DD8 /* RGToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGToast.swift; sourceTree = "<group>"; };
+		B784E6721F46DB6700D702AF /* CLLocation+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+RGAppTools.swift"; sourceTree = "<group>"; };
+		B784E6741F46E4D600D702AF /* UIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
+		B784E6761F46E4E900D702AF /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		B79DA2CE1C603836002FB62E /* RGAppTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGAppTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79DA2D11C603837002FB62E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B79DA2D31C603837002FB62E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79DA2D61C603837002FB62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79DA2D81C603837002FB62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B79DA2DB1C603837002FB62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79DA2DD1C603837002FB62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BDB5D41F39499F003C3F60 /* AppSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSingleton.swift; sourceTree = "<group>"; };
+		B7BDB5D51F39499F003C3F60 /* MethodInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodInfo.swift; sourceTree = "<group>"; };
+		B7BDB5D81F39499F003C3F60 /* Double+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5D91F39499F003C3F60 /* Int+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5DA1F3949A0003C3F60 /* String+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5DC1F3949A0003C3F60 /* Bundle+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5DD1F3949A0003C3F60 /* Date+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5DE1F3949A0003C3F60 /* DispatchQueue+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5DF1F3949A0003C3F60 /* FileManager+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E01F3949A0003C3F60 /* NSDictionary+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E11F3949A0003C3F60 /* NSObject+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E21F3949A0003C3F60 /* UserDefaults+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E51F3949A0003C3F60 /* UIAlertController+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E61F3949A0003C3F60 /* UIColor+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E71F3949A0003C3F60 /* UIDevice+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5E81F3949A0003C3F60 /* UIImage+RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RGAppTools.swift"; sourceTree = "<group>"; };
+		B7BDB5EB1F3949A0003C3F60 /* TopLayoutProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLayoutProtocols.swift; sourceTree = "<group>"; };
+		B7BDB5EC1F3949A0003C3F60 /* RGAppTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGAppTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79DA2CB1C603836002FB62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79DA2C51C603836002FB62E = {
+			isa = PBXGroup;
+			children = (
+				B79DA2D01C603837002FB62E /* RGAppTools */,
+				B79DA2CF1C603836002FB62E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79DA2CF1C603836002FB62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79DA2CE1C603836002FB62E /* RGAppTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79DA2D01C603837002FB62E /* RGAppTools */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5D21F39499F003C3F60 /* RGAppTools */,
+				B79DA2D11C603837002FB62E /* AppDelegate.swift */,
+				B79DA2D31C603837002FB62E /* ViewController.swift */,
+				B79DA2D51C603837002FB62E /* Main.storyboard */,
+				B79DA2D81C603837002FB62E /* Assets.xcassets */,
+				B79DA2DA1C603837002FB62E /* LaunchScreen.storyboard */,
+				B79DA2DD1C603837002FB62E /* Info.plist */,
+			);
+			path = RGAppTools;
+			sourceTree = "<group>";
+		};
+		B7BDB5D21F39499F003C3F60 /* RGAppTools */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5EC1F3949A0003C3F60 /* RGAppTools.swift */,
+				B7BDB5D31F39499F003C3F60 /* App Commons */,
+				B7BDB5D61F39499F003C3F60 /* Extensions */,
+				B7BDB5E91F3949A0003C3F60 /* Protocols */,
+				B7BDB5ED1F3949A0003C3F60 /* RGBuild */,
+			);
+			path = RGAppTools;
+			sourceTree = "<group>";
+		};
+		B7BDB5D31F39499F003C3F60 /* App Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5D41F39499F003C3F60 /* AppSingleton.swift */,
+				B784E6741F46E4D600D702AF /* UIConstant.swift */,
+				B7BDB5D51F39499F003C3F60 /* MethodInfo.swift */,
+			);
+			path = "App Commons";
+			sourceTree = "<group>";
+		};
+		B7BDB5D61F39499F003C3F60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5D71F39499F003C3F60 /* Basic */,
+				B7BDB5DB1F3949A0003C3F60 /* Cocoa */,
+				B7BDB5E31F3949A0003C3F60 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7BDB5D71F39499F003C3F60 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5D81F39499F003C3F60 /* Double+RGAppTools.swift */,
+				B7BDB5D91F39499F003C3F60 /* Int+RGAppTools.swift */,
+				B7BDB5DA1F3949A0003C3F60 /* String+RGAppTools.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B7BDB5DB1F3949A0003C3F60 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B784E6721F46DB6700D702AF /* CLLocation+RGAppTools.swift */,
+				B7BDB5DC1F3949A0003C3F60 /* Bundle+RGAppTools.swift */,
+				B7BDB5DD1F3949A0003C3F60 /* Date+RGAppTools.swift */,
+				B7BDB5DE1F3949A0003C3F60 /* DispatchQueue+RGAppTools.swift */,
+				B7BDB5DF1F3949A0003C3F60 /* FileManager+RGAppTools.swift */,
+				B7BDB5E01F3949A0003C3F60 /* NSDictionary+RGAppTools.swift */,
+				B7BDB5E11F3949A0003C3F60 /* NSObject+RGAppTools.swift */,
+				B7BDB5E21F3949A0003C3F60 /* UserDefaults+RGAppTools.swift */,
+			);
+			path = Cocoa;
+			sourceTree = "<group>";
+		};
+		B7BDB5E31F3949A0003C3F60 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5E51F3949A0003C3F60 /* UIAlertController+RGAppTools.swift */,
+				B7BDB5E61F3949A0003C3F60 /* UIColor+RGAppTools.swift */,
+				B7BDB5E71F3949A0003C3F60 /* UIDevice+RGAppTools.swift */,
+				B7BDB5E81F3949A0003C3F60 /* UIImage+RGAppTools.swift */,
+				B73D431F1F43CCD50048A97D /* UINavigationBar+RGAppTools.swift */,
+				B73D43211F43CCF60048A97D /* UITabBar+RGAppTools.swift */,
+				B73D43231F43CD150048A97D /* UIView+RGAppTools.swift */,
+				B73D43251F43CD350048A97D /* UIViewController+RGAppTools.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B7BDB5E91F3949A0003C3F60 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5EA1F3949A0003C3F60 /* View Protocols */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B7BDB5EA1F3949A0003C3F60 /* View Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B7BDB5EB1F3949A0003C3F60 /* TopLayoutProtocols.swift */,
+			);
+			path = "View Protocols";
+			sourceTree = "<group>";
+		};
+		B7BDB5ED1F3949A0003C3F60 /* RGBuild */ = {
+			isa = PBXGroup;
+			children = (
+				B784E6761F46E4E900D702AF /* MainScreen.swift */,
+				B753AD6D1F4BFB9D00978DD8 /* RGToast.swift */,
+			);
+			path = RGBuild;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79DA2CD1C603836002FB62E /* RGAppTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79DA2E01C603837002FB62E /* Build configuration list for PBXNativeTarget "RGAppTools" */;
+			buildPhases = (
+				B79DA2CA1C603836002FB62E /* Sources */,
+				B79DA2CB1C603836002FB62E /* Frameworks */,
+				B79DA2CC1C603836002FB62E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGAppTools;
+			productName = RGAppTools;
+			productReference = B79DA2CE1C603836002FB62E /* RGAppTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79DA2C61C603836002FB62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Smartech;
+				TargetAttributes = {
+					B79DA2CD1C603836002FB62E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 76U7MFBQ83;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = B79DA2C91C603836002FB62E /* Build configuration list for PBXProject "RGAppTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79DA2C51C603836002FB62E;
+			productRefGroup = B79DA2CF1C603836002FB62E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79DA2CD1C603836002FB62E /* RGAppTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79DA2CC1C603836002FB62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79DA2DC1C603837002FB62E /* LaunchScreen.storyboard in Resources */,
+				B79DA2D91C603837002FB62E /* Assets.xcassets in Resources */,
+				B79DA2D71C603837002FB62E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79DA2CA1C603836002FB62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B753AD6E1F4BFB9D00978DD8 /* RGToast.swift in Sources */,
+				B7BDB5FD1F3949A0003C3F60 /* UIDevice+RGAppTools.swift in Sources */,
+				B7BDB5EF1F3949A0003C3F60 /* MethodInfo.swift in Sources */,
+				B7BDB5FB1F3949A0003C3F60 /* UIAlertController+RGAppTools.swift in Sources */,
+				B79DA2D41C603837002FB62E /* ViewController.swift in Sources */,
+				B73D43221F43CCF60048A97D /* UITabBar+RGAppTools.swift in Sources */,
+				B7BDB5FC1F3949A0003C3F60 /* UIColor+RGAppTools.swift in Sources */,
+				B784E6771F46E4E900D702AF /* MainScreen.swift in Sources */,
+				B7BDB5F31F3949A0003C3F60 /* Bundle+RGAppTools.swift in Sources */,
+				B73D43201F43CCD50048A97D /* UINavigationBar+RGAppTools.swift in Sources */,
+				B7BDB5F91F3949A0003C3F60 /* UserDefaults+RGAppTools.swift in Sources */,
+				B7BDB5F11F3949A0003C3F60 /* Int+RGAppTools.swift in Sources */,
+				B7BDB5F51F3949A0003C3F60 /* DispatchQueue+RGAppTools.swift in Sources */,
+				B7BDB5FF1F3949A0003C3F60 /* TopLayoutProtocols.swift in Sources */,
+				B7BDB5F01F3949A0003C3F60 /* Double+RGAppTools.swift in Sources */,
+				B7BDB5F61F3949A0003C3F60 /* FileManager+RGAppTools.swift in Sources */,
+				B784E6731F46DB6700D702AF /* CLLocation+RGAppTools.swift in Sources */,
+				B7BDB5EE1F3949A0003C3F60 /* AppSingleton.swift in Sources */,
+				B73D43241F43CD150048A97D /* UIView+RGAppTools.swift in Sources */,
+				B79DA2D21C603837002FB62E /* AppDelegate.swift in Sources */,
+				B7BDB6001F3949A0003C3F60 /* RGAppTools.swift in Sources */,
+				B7BDB5F81F3949A0003C3F60 /* NSObject+RGAppTools.swift in Sources */,
+				B7BDB5F71F3949A0003C3F60 /* NSDictionary+RGAppTools.swift in Sources */,
+				B784E6751F46E4D600D702AF /* UIConstant.swift in Sources */,
+				B7BDB5FE1F3949A0003C3F60 /* UIImage+RGAppTools.swift in Sources */,
+				B73D43261F43CD350048A97D /* UIViewController+RGAppTools.swift in Sources */,
+				B7BDB5F21F3949A0003C3F60 /* String+RGAppTools.swift in Sources */,
+				B7BDB5F41F3949A0003C3F60 /* Date+RGAppTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B79DA2D51C603837002FB62E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79DA2D61C603837002FB62E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79DA2DA1C603837002FB62E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79DA2DB1C603837002FB62E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79DA2DE1C603837002FB62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B79DA2DF1C603837002FB62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79DA2E11C603837002FB62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76U7MFBQ83;
+				INFOPLIST_FILE = RGAppTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartech.RGAppTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B79DA2E21C603837002FB62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76U7MFBQ83;
+				INFOPLIST_FILE = RGAppTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartech.RGAppTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79DA2C91C603836002FB62E /* Build configuration list for PBXProject "RGAppTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79DA2DE1C603837002FB62E /* Debug */,
+				B79DA2DF1C603837002FB62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79DA2E01C603837002FB62E /* Build configuration list for PBXNativeTarget "RGAppTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79DA2E11C603837002FB62E /* Debug */,
+				B79DA2E21C603837002FB62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79DA2C61C603836002FB62E /* Project object */;
+}
